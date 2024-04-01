@@ -1,19 +1,22 @@
-import React from "react"
-import Image from "next/image"
+import React from "react";
+import Image from "next/image";
 
 const skills = [
   { skill: "HTML" },
   { skill: "CSS" },
   { skill: "JavaScript" },
   { skill: "TypeScript" },
-  { skill: "Python" },
-  { skill: "React" },
   { skill: "Next.js" },
+  { skill: "React" },
+  { skill: "Redux" },
+  { skill: "Python" },
+  { skill: "REST API" },
+  { skill: "PostgreSQL" },
+  { skill: "Prisma" },
   { skill: "Tailwind CSS" },
   { skill: "Git" },
   { skill: "GitHub" },
-  { skill: "Jupyter Notebooks" },
-]
+];
 
 const AboutSection = () => {
   return (
@@ -30,24 +33,24 @@ const AboutSection = () => {
               Get to know me!
             </h1>
             <p>
-              Hi, my name is Hosna and I am a{" "}
+              Hi, my name is Bahareh and I am a{" "}
               <span className="font-bold">{"highly ambitious"}</span>,
               <span className="font-bold">{" self-motivated"}</span>, and
               <span className="font-bold">{" driven"}</span> software engineer
-              based in Los Angeles, CA.
+              based in Amsterdam.
             </p>
             <br />
             <p>
-              I graduated from California State University, Northridge in 2019
-              with a BS in Computer Engineering and have been working in the
-              field ever since.
+              I&apos;m passionate about coding and love solving problems. I work
+              well in teams, taking on complex tasks and turning them into
+              successful projects.
             </p>
             <br />
             <p>
               I have a wide range of hobbies and passions that keep me busy.
-              From reading, playing sports, traveling, to making YouTube videos,
-              I am always seeking new experiences and love to keep myself
-              engaged and learning new things.
+              From reading, playing board games, traveling, to photography, I am
+              always seeking new experiences and love to keep myself engaged and
+              learning new things.
             </p>
             <br />
             <p>
@@ -72,7 +75,7 @@ const AboutSection = () => {
                   >
                     {item.skill}
                   </p>
-                )
+                );
               })}
             </div>
             <Image
@@ -86,7 +89,7 @@ const AboutSection = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default AboutSection
+export default AboutSection;
