@@ -13,6 +13,14 @@ const projects = [
     github: "https://github.com/baharehforoughi/tile-match-game.git",
     link: "https://tile-match-game-kappa.vercel.app/game",
   },
+  {
+    name: "Game Hub",
+    description:
+      "GameHub is a video game discovery web app that helps you find new and interesting games to play. With GameHub, you can search for games by platform, genre, and more.",
+    image: "/gamehub.png",
+    github: "https://github.com/baharehforoughi/game-hub",
+    link: "https://game-hub-psi-woad.vercel.app/",
+  },
 ];
 
 const ProjectsSection = () => {
